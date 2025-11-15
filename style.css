@@ -1,0 +1,107 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    position: relative;
+    width: max-content;
+    margin:100px auto;
+}
+.shadow{
+    position: absolute;
+    top: -40px;
+    left: 15px;
+    background-color: black;
+    padding: 20px;
+    margin: 65px;
+    max-width: 600px;
+    width: 555px;
+    height: 760px;
+    border-radius: 30px;
+}
+.yallowcov {
+  display: block;
+  background-color: white;
+  border: black,solid;
+  padding: 20px; /* relative unit */
+  margin: 65px; /* center horizontally */
+  max-width: 600px;
+  width: 600px; /* allow shrinking on small screens */
+  border-radius: 30px;
+  box-sizing: border-box; /* include padding in width */
+  position: relative;
+  
+}
+
+.frontimg {
+  width: 100%; /* makes the image scale with container */
+  height: auto;
+  border-radius: 20px;
+}
+
+.p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    background-color:hsl(47, 88%, 63%) ;
+    padding: 8px 15px;
+    border-radius: 5px;
+    /* margin: 0,40,0,40; */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Published{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+   /* font-weight: bold; */
+   font-size: large;
+   
+}
+.foundations{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.text{
+    color: grey;
+    font-size: 1.7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.down{
+    display: flex;
+    justify: content 50px;
+}
+.profil{
+    width: 9%;
+    size: 0.2em;
+}
+.name{
+    position: relative;
+    left: 10px;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+  .p {
+    font-size: 1rem;
+  }
+}
+
